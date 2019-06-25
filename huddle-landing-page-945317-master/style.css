@@ -1,0 +1,368 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h2, h3{
+	font-family: 'Poppins', serif;
+}
+
+body{
+	font-family: 'Open Sans', serif;
+   	padding:0;
+	margin:0;
+	font-size: 18px;
+	
+}
+
+#main-page{
+	margin:0;
+	width:100%;
+	height:100vh;
+	background-color: hsl(193, 100%, 96%);
+	background-image: url("images/bg-hero-desktop.svg");
+}
+
+header img{
+	width:15%;
+	padding:3em 3em;
+
+}
+
+header button{
+	margin:3em 3em 0 0;
+	float: right;
+	border:none;
+	background:white;
+	padding:10px 50px;
+	border-radius: 30%;
+	box-shadow:5px 5px 10px grey; 
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: #eaedf2;
+
+}
+
+#container{
+	width:100%;
+
+}
+
+#body{
+	width: 35%;
+	float:left;
+	margin:0 5%;
+}
+
+#body-img img{
+	width:40%;
+	
+	margin:0 5% 0 0;
+	position: absolute;
+	right:0;
+	top:30%;
+}
+
+.get-started{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	background-color:  hsl(322, 100%, 66%);
+	border: none;
+	padding: 10px 50px;
+	border-radius: 30%;
+	color:white;
+	margin-top: 2em;
+}
+
+.get-started:hover{
+	background-color: #de88ef;
+}
+
+#center-body{
+	width: 100%;
+	background-color: #f2f5f9;
+
+
+	
+}
+.all-content{
+		border-radius: 10%;
+}
+
+
+#center-body p{
+	color:hsl(208, 11%, 55%);
+}
+
+#center-body ul{
+	
+	display:inline-block;
+	list-style-type: none;
+	margin:0;
+	padding:5%;
+
+}
+
+
+
+#center-body img{
+	width:30%;
+	float: right;
+	padding-top: 10%;
+}
+
+.content{
+	width:50%;
+	float:left;
+	height:30%;
+	padding:3%;
+
+
+}
+
+#center-body .all-content{
+	background-color: white;
+	box-shadow:5px 5px 10px grey; 
+	overflow: auto;
+	margin: 3em 1em;
+	padding:3em 1em;
+}
+
+#center-body ul li:nth-child(even) img{
+	float: left;
+}
+
+#center-body ul li:nth-child(even) .content{
+	float: right;
+}
+
+#subscribe{
+	width: 50%;
+	text-align:center;
+	margin:5em auto 0 auto;
+	box-shadow:5px 5px 10px grey; 
+	padding:4em 0;
+	z-index:10;
+	position:relative;
+	background-color: white;
+	border-radius: 10%;
+	
+
+}
+
+footer{
+	background-color: black;
+	color:hsl(208, 11%, 55%);
+	margin:0;
+	padding:0;
+	width:100%;
+	margin-top:-5%;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	padding-top:5%;
+	grid-gap:5%;
+
+}
+
+#col1{
+	grid-column: 1;
+}
+
+#col2{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+#col2A{
+	grid-column:1;
+
+}
+
+#col2B{
+	grid-column:2;
+}
+
+
+#end{
+	margin:0;
+	padding: 0;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: hsl(208, 11%, 55%)
+;
+}
+
+footer li{
+	margin: 0;
+}
+
+#col1 li section{
+	display:grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: auto auto auto;
+}
+
+#col1 li section img{
+	grid-column: :1;
+	margin: auto 0;
+
+}
+#col1 li section p{
+	grid-column: 2;
+	
+}
+
+
+
+#col2{
+	padding-top:20%;
+	
+}
+#col2 li{
+	margin: 15% 0;
+}
+
+#col3{
+	float:right;
+
+
+}
+
+#col3 ul li{
+	display: inline;
+}
+
+#col3 img{
+	width:10%;
+	margin: auto;
+	padding: 20% 5%;
+
+}
+
+#col3 p{
+	position:absolute;
+	bottom:0;
+	
+}
+
+@media only screen and (max-width: 700px){
+	header img{
+		padding:15px;
+		width: 30%;
+	}
+
+	header button{
+		padding:10px;
+		width: 30%;
+		margin:10px 10px 20px 10px;
+	}
+
+	#main-page{
+		display: block;
+		
+		
+	}
+
+	#body{
+		width:80%;
+		text-align: center;
+		
+	}
+
+	#body p{
+		font-size: 80%;
+	}
+
+	#body h2{
+		font-size: 25px;
+
+	}
+
+	#body button{
+		margin-bottom: 10px;
+	}
+
+	#body-img{
+		width:100%;
+		
+	}
+
+	#body-img img{
+		width:60%;
+		margin: auto;
+		padding-top:6px;
+		position: relative;
+		left: 20%;
+		bottom: 0;
+	}
+
+	#center-body{
+		text-align: center;
+	}
+
+	#center-body ul{
+		display: block;
+
+	}
+
+
+
+	#center-body .content{
+		width: 80%;
+		padding:3px 10%;
+		postion:relative;
+		bottom: 0;
+
+	}
+
+	#center-body img{
+		top:0;
+		width:80%;
+		padding:5% 10%;
+
+	}
+
+	#subscribe{
+		padding:5px;
+		padding-bottom: 20px;
+		border-radius: 10%;
+	}
+
+	#subscribe button{
+		padding: 15px 20px;
+
+	}
+
+	footer{
+		display: grid;
+		grid-template-columns: auto;
+		grid-auto-rows: auto auto auto; 
+		grid-gap:10px;
+	}
+
+	#col1{
+		grid-column: 1;
+		grid-row:1; 
+		padding:10px;
+	}
+
+	#col2{
+		grid-column: 1;
+		grid-row:2; 
+		padding:10px;
+	}
+
+	#col3{
+		grid-column: 1;
+		grid-row:3; 
+		padding:5px 10px 10px 10px;
+	}
+
+}
